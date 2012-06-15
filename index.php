@@ -101,7 +101,7 @@
 
 		<p>I'm a Dutch digital media developer and web entrepreneur.<br />At the moment I am <em class="red">not available</em> for work.</p>
 
-		<p>I like to dabble in both front- and backend technologies. Currently my frameworks of choice are (but not limited to) <a href="http://www.codeigniter.com">CodeIgniter</a> and <a href="http://laravel.com/">Laravel</a>, spiced up with a bit of <a href="http://www.lesscss.org">LESS</a> and <a href="http://www.jquery.com">jQuery</a>.</p>
+		<p>I like to dabble in both front- and backend technologies. Currently my frameworks of choice are <a href="http://www.codeigniter.com">CodeIgniter</a> and <a href="http://laravel.com/">Laravel</a>, spiced up with a bit of <a href="http://www.lesscss.org">LESS</a> and <a href="http://www.jquery.com">jQuery</a>.</p>
 
 		<p>Get in touch on <a href="http://nl.linkedin.com/in/royscheepens">LinkedIn</a>, <a href="https://github.com/royscheepens">Github</a>, <a href="https://forrst.com/people/royscheepens">Forrst</a> and <a href="http://open.spotify.com/user/1112904683">Spotify</a>. Please don't <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#114;&#111;&#121;&#115;&#99;&#104;&#101;&#101;&#112;&#101;&#110;&#115;&#46;&#110;&#108;'>email me</a>.</p>
 
