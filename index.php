@@ -30,8 +30,10 @@
 			padding:0 1em;
 		}
 
+		article > * { display:none; }
+
 		figure {
-			display:block;
+			display:none;
 			margin:0 0 20px 0;
 		}
 
@@ -106,6 +108,21 @@
 		<p>Get in touch on <a href="http://nl.linkedin.com/in/royscheepens">LinkedIn</a>, <a href="https://github.com/royscheepens">Github</a>, <a href="https://forrst.com/people/royscheepens">Forrst</a> and <a href="http://open.spotify.com/user/1112904683">Spotify</a>. Please don't <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#114;&#111;&#121;&#115;&#99;&#104;&#101;&#101;&#112;&#101;&#110;&#115;&#46;&#110;&#108;'>email me</a>.</p>
 
 	</article>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		var elems = $('article').children()
+		,	delay = 200
+		,	i = 1;
+
+		elems.each(function() {
+			var elem = $(this);
+			elem.animate({opacity: 1}, { duration: (delay * i)} ).fadeIn(600);
+			i++;
+		});
+
+	</script>
 
 </body>
 </html>
