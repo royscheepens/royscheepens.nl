@@ -101,7 +101,7 @@
 			<img src="http://www.gravatar.com/avatar/<?php echo strtolower(trim(md5('roy.scheepens@gmail.com'))) ?>?s=180" alt="This is me!">
 		</figure>
 
-		<p>I'm a Dutch digital media developer and web entrepreneur.<br />At the moment I am <em class="red">not available</em> for work.</p>
+		<p>I'm a Dutch digital media developer and web entrepreneur.</p>
 
 		<p>I like to dabble in both front- and backend technologies. Currently my frameworks of choice are <a href="http://www.codeigniter.com">CodeIgniter</a> and <a href="http://laravel.com/">Laravel</a>, spiced up with a bit of <a href="http://www.lesscss.org">LESS</a> and <a href="http://www.jquery.com">jQuery</a>.</p>
 
