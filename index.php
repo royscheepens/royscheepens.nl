@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Roy Scheepens - Multimedia Web Developer</title>
+	<title>Roy Scheepens - Designer, Developer and Web Entrepreneur</title>
 
 	<meta name="revisit-after" content="1 month" />
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
