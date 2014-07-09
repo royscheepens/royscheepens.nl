@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Roy Scheepens - Designer, Developer and Web Entrepreneur</title>
+	<title>Roy Scheepens - Developer, Designer and Web Entrepreneur</title>
 
 	<meta name="revisit-after" content="1 month" />
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+
+    <script type="text/javascript" src="//use.typekit.net/jqk8pbc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
 
@@ -27,8 +30,9 @@
 			line-height:1.875rem;
 
 			text-align:left;
-			font: 300 1.3em/1.875em 'Open Sans', Helvetica, Arial, sans-serif;
-			color:#666;
+			font: 300 1.2em/1.875em 'Open Sans', Helvetica, Arial, sans-serif;
+            font-family: 'ff-tisa-sans-web-pro-1';
+			color:#999;
 		}
 
 		article {
@@ -37,6 +41,22 @@
 			max-width:700px;
 			padding:0 1em;
 		}
+
+        h1,
+        h2,
+        h3 {
+            color:#323232;
+            font-family: 'ff-tisa-web-pro-1';
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin-bottom:0.5em;
+        }
+
+        h2 + p {
+            margin-top:0;
+        }
 
 		article > * { display:none; }
 
@@ -50,6 +70,8 @@
 
 		a:hover { color:#b19479; }
 		a:active {}
+
+        em { font-style: normal; color: #323232; }
 
 		em.red { font-style:normal; color:#900; }
 
@@ -146,7 +168,7 @@
 		.portfolio .item figure { 
 			text-align:center;
 			width:100%;
-			margin:0; padding:0;
+			margin:20px 0; padding:0;
 			
 		}
 
@@ -186,13 +208,14 @@
 			<img src="http://www.gravatar.com/avatar/<?php echo strtolower(trim(md5('roy.scheepens@gmail.com'))) ?>?s=180" alt="This is me!">
 		</figure>
 
-		<p>I'm an all Dutch designer, developer and web entrepreneur.</p>
+		<h1>Hi! My name is Roy Scheepens. I'm a Dutch developer, designer and web entrepreneur.</h1>
+
+        <p>I have well over 7 years of experience in both front- and backend technologies, developing and managing projects both large and small. I strive to make users happy, and my clients along the way.</p><p>Currently the tools in my belt are (but not limited to) <em>PHP</em>, <em>Javascript</em> and <em>CSS3</em>, utilizing frameworks like <a href="http://www.codeigniter.com">CodeIgniter</a>, <a href="http://backbonejs.org/">Backbone.js</a>, <a href="http://www.lesscss.org">LESS</a> and <a href="http://http://nodejs.org/">Node.js</a>.
 
 		<p>As it comes to design, I truly believe less is more. Design should be functional and beautiful, and always provide an optimal user experience. No matter which device is used.</p>
 
-		<p>I like to dabble in both front- and backend technologies. Currently my frameworks of choice are (but not limited to) <a href="http://www.codeigniter.com">CodeIgniter</a> and <a href="http://backbonejs.org/">Backbone.js</a>, spiced up with a bit of <a href="http://www.lesscss.org">LESS</a> and <a href="http://gruntjs.com/">Grunt</a>.</p>
-
-		<p>Like to know more? Get in touch on <a href="http://nl.linkedin.com/in/royscheepens">LinkedIn</a>, <a href="https://github.com/royscheepens">Github</a>, <a href="https://forrst.com/people/royscheepens">Forrst</a> and <a href="http://open.spotify.com/user/1112904683">Spotify</a>. Or get oldskool and <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#114;&#111;&#121;&#115;&#99;&#104;&#101;&#101;&#112;&#101;&#110;&#115;&#46;&#110;&#108;'>email me</a>.</p>
+		<h2>Like to know more?</h2>
+        <p>Get in touch on <a href="http://nl.linkedin.com/in/royscheepens">LinkedIn</a>, <a href="https://github.com/royscheepens">Github</a>, or <a href="CV_RoyScheepens.pdf" target="_blank">download my resume</a> (Dutch). Or get oldskool and <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#114;&#111;&#121;&#115;&#99;&#104;&#101;&#101;&#112;&#101;&#110;&#115;&#46;&#110;&#108;'>email me</a>.</p>
 
 		<div class="availability">
 			<div class="indicator"></div> Currently accepting new projects
@@ -200,9 +223,29 @@
 
 	</article>
 
+    <?php /* ?>
 	<article class="portfolio">
 		
 		<h1><span>See my work</span></h1>
+
+		<div class="item">
+			
+			<figure>
+				<img src="img/boels.png" alt="Rocca QR Adventure">
+			</figure>
+	
+			<h2>Rocca QR Adventure <span>2012</span></h2>
+
+			<p>An exciting adventure played in the woodlands of Zuid-Limburg. Armed with an 3G iPad, players explore the surroundings and scan QR codes to advance to the next checkpoint, answering trivia questions and achieving time-based objectives along the way. </p>
+
+			<p>The project features an iPad application, administrative backend and real-time narrowcasting.</p>
+
+			<h3>What I did</h3>
+			<p>Conceptual Design, Development</p>
+
+			<a href="http://roccaqrtocht.nl">More about the project</a>
+
+		</div>
 
 		<div class="item">
 			
@@ -223,27 +266,10 @@
 
 		<p>More coming soon...</p>
 
-		<?php /* ?>
-		<div class="item">
-			
-			<figure>
-				<!-- <img src="img/boels.png" alt="Boels Rental"> -->
-			</figure>
-	
-			<h2>Another project <span>2013</span></h2>
-
-			<p>For one of the largest rental companies of Europe I designed and developed their online presence, both on desktop and mobile devices. Kodus go to <a href="nl.linkedin.com/in/sjoerdheld">Sjoerd Held</a> for his excellent Mobile App design.</p>
-
-			<h3>What I did</h3>
-			<p>About</p>
-
-			<a href="http://boels.nl">Visit the site</a>
-
-		</div>
-		<?php */ ?>
 	
 	</article>
-
+    <?php */ ?>
+    
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<script type="text/javascript">
